@@ -7,7 +7,7 @@ import wsgiref.util
 
 import requests_oauthlib
 
-from shoes_testing.api.strava.utils import _request
+from gears_testing.api.strava.utils import _request
 
 _LOGGER = logging.getLogger(__name__)
 

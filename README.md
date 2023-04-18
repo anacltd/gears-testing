@@ -1,4 +1,4 @@
-# Shoes testing
+# Gears testing
 Long story short: my boyfriend runs. A lot. And he's good at it. So he tests running gears such as shoes. And he needs to keep track of his runs with the gear he's testing.  
 This repo contains a codebase that extracts activities from Strava and uploads data into a Google Spreadsheets that looks like this:
 ```

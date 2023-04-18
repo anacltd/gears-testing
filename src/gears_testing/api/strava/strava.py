@@ -9,8 +9,8 @@ import requests
 from requests.adapters import HTTPAdapter
 from urllib3 import Retry
 
-from shoes_testing.api.strava.authenticate_flow import InstalledAppFlow
-from shoes_testing.api.strava.utils import _request
+from gears_testing.api.strava.authenticate_flow import InstalledAppFlow
+from gears_testing.api.strava.utils import _request
 
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s %(levelname)s %(name)s %(message)s')
