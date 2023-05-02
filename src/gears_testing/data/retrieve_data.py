@@ -5,15 +5,15 @@ from typing import NoReturn
 
 import polars as pl
 
-from shoes_testing.api.sheet.spreadsheet import GoogleSheetAPI
-from shoes_testing.api.strava.strava import StravaAPI
+from gears_testing.api.sheet.spreadsheet import GoogleSheetAPI
+from gears_testing.api.strava.strava import StravaAPI
 
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s %(levelname)s %(name)s %(message)s')
 
 logger = logging.getLogger(__name__)
 
-SPREADSHEET_ID = ""
+SPREADSHEET_ID = ""  # TODO: add the spreadhseet ID
 COLS = [
     'name',
     'distance',
